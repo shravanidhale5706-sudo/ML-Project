@@ -34,7 +34,10 @@ h2, h3 {
 
 # Title
 st.title(" My Machine Learning App    ")
-st.write("                      Welcome to my application!")
+st.markdown(
+    "<p style='text-align: center;'>Welcome to my application!</p>",
+    unsafe_allow_html=True
+)
 
 st.divider()
 
