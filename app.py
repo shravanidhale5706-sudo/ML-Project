@@ -33,8 +33,8 @@ h2, h3 {
 """, unsafe_allow_html=True)
 
 # Title
-st.title("My Machine Learning App")
-st.write("Welcome to my application!")
+st.title(" My Machine Learning App    ")
+st.write("                      Welcome to my application!")
 
 st.divider()
 
@@ -50,5 +50,3 @@ if st.button("Submit"):
     else:
         st.warning("Please enter your name.")
 
-st.divider()
-st.caption("Created using Python and Streamlit")
